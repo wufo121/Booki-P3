@@ -210,6 +210,7 @@ form input[type=submit],
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -285,6 +286,7 @@ form input[type=submit],
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 8px;
 }
 
 .populaires-cards .card {
