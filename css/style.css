@@ -98,7 +98,7 @@ form {
     margin:2em 0 2em 0;
 }
 
-.position-logo {
+.icone-black {
     color: black; 
 }
 
@@ -270,8 +270,6 @@ form input[type=submit],
     margin-bottom: 5px;
 }
 
-
-
 .hebergements-cards .card:hover {
     transform: scale(1.1);
     background-color: rgba(0, 0, 0, 0.1);
@@ -437,7 +435,16 @@ footer article {
         width: 30%;
     }
 
-   
+    /*****Populaires*****/
+
+    .populaires-cards .card {
+        width: 100%;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -449,9 +456,6 @@ footer article {
         justify-content: space-between;
     }
 
-    .populaires-cards .card {
-        width: 30%;
-    }
 
     .populaires-cards .card-title {
         font-size: 14px;
@@ -459,16 +463,6 @@ footer article {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
-    }
-
-    /*****Populaires*****/
-
-    .populaires-cards .card {
-        width: 100%;
-    }
-
-    .populaires-cards a {
-        width: 30%;
     }
 
  /*****Activités*****/
